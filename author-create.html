@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <!-->
+<html lang="zxx">
+<!--
+<![endif]-->
+
+<head>
+    <!-- TITLE OF SITE -->
+    <title>Red Shiba</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+    <!-- CSS Begins
+================================================== -->
+    <!--Animate Effect-->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+
+    <!--BootStrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+</head>
+
+<body cz-shortcut-listen="true">
+
+    <!-- ::::::::::::::::::::::::::: Start: Preloader section ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: End: Preloader section ::::::::::::::::::::::::::: -->
+
+    <!-- Start: Header Section
+==================================================-->
+    <div class="menu_wrapper">
+        <nav>
+            <!-- <input type="checkbox" id="show-search"> -->
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="menu_content">
+                <div class="logo">
+                    <a href="#"><img src="img/logo Red shiba.png" alt=""></a>
+                </div>
+                <!-- ./logo -->
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Roadmap</a></li>
+                    <li><a href="#">How to Buy</a></li>
+                    <li><a href="#" class="btn-outline">Poocoin</a></li>
+                    <li><a href="#" class="btn-outline">TeleGram</a></li>
+                    <li><a href="#" class="btn-outline">PancakeSwap</a></li>
+                </ul>
+                <!-- ./ ul -->
+            </div>
+            <!-- ./ menu_content -->
+        </nav>
+    </div>
+    <!-- End: header navigation
+==================================================-->
+
+
+    <!-- Start: Connect Wallet Modal
+==================================================-->
+    <div class="modal fade" id="connectWallet" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Connect to a wallet</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="wallet_body">
+                    <a href="#">
+                        Install Binance Chain Wallet
+                        <i class="fas fa-box"> </i>
+                    </a>
+                    <a href="#">
+                        Install Metamask
+                        <i class="fa fa-head-side-mask"> </i>
+                    </a>
+                    <a href="#">
+                        WalletConnect
+                        <i class="fab fa-google-wallet"> </i>
+                    </a>
+                    <a href="#">
+                        Fortmatic
+                        <i class="fa fa-pallet"> </i>
+                    </a>
+                </div>
+                <!-- ./ wallet_body -->
+            </div>
+            <!-- ./ modal-content -->
+        </div>
+        <!-- ./  modal-dialog -->
+    </div>
+    <!-- End: Connect Wallet Modal
+==================================================-->
+
+
+    <!-- header -->
+    <header class="single-header">
+        <!-- Start: Header Content -->
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <!-- Headline Goes Here -->
+                    <h3>Author Create</h3>
+                    <h4><a href="index.html"> <i class="fas fa-home"></i>Home</a> <span> | </span> author </h4>
+                </div>
+            </div>
+            <!-- End: .row -->
+        </div>
+        <!-- End: Header Content -->
+    </header>
+    <!--/. header -->
+    <!--/    
+==================================================-->
+
+<section class="single-author-section item_create">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-12">
+                <div class=" authorr_left">
+                    <div class=" authorr_avatar">
+                        <img src="img/Shiba1.png" alt="">
+                        <h3> Jon Andarson </h3>
+                        <span> @jarvinart</span>
+                        <span> Artist signed NFTs</span>
+                    </div>
+                    <div class="author_link_copy">
+                        <input type="text" class="form-control" placeholder="A96610010835396F6457">
+                        <div class="input-group-append">
+                            <button><i class="fas fa-copy"></i></button>
+                        </div>
+                    </div>
+                    <div class="authorr_social">
+                        <a href="" class="fab fa-facebook-f"></a>
+                        <a href="" class="fab fa-linkedin"></a>
+                        <a href="" class="fab fa-twitter"></a>
+                        <a href="" class="fab fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /. col-lg-4 col-md-5 col-sm-12 -->
+
+            <div class="col-lg-8 col-md-7 col-sm-12 create_form">
+                <div class="contact-form">
+                    <h3>Create Item </h3>
+                    <form method="post" action="mailer.php" id="contact-form">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12">
+                                <input class="con-field" name="name" id="name" type="text" placeholder="Item Name">
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="upload_file">
+                                    <input class="con-field" name="file" id="file" type="file" onchange="loadFile(event)">
+                                    <label class="custom-file-label" for="file">Choose file</label>
+                                </div>
+                                <div class="preview-img d-none">
+                                    <img id="output" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <input class="con-field" name="price" id="price" type="text" placeholder="Item Price">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <input class="con-field" name="royality" id="royality" type="text" placeholder="Royality">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <input class="con-field" name="size" id="size" type="text" placeholder="Size">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <input class="con-field" name="copies" id="copies" type="text" placeholder="Copies">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12">
+                                <textarea class="con-field" name="message" id="message2" rows="6" placeholder="Your Message"></textarea>
+                                <div class="submit-area">
+                                    <input type="submit" class="submit-contact" value="Create Item">
+                                    <div id="msg" class="message"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <!-- /. col-lg-8 col-md-7 col-sm-12 -->
+        </div>
+        <!-- /. row -->
+    </div>
+    <!-- /. container -->
+</section>
+
+    <!-- Start:Footer Section
+==================================================-->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Start: logo -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer_logo">
+                        <img src="img/logo Red shiba.png" alt="">
+                        <p>
+                            Red Shiba was born on July 7, 2021, 
+                            and its goal is to become a purposeful 
+                            decentralized memetic project.</p>
+                    </div>
+                </div>
+                <!-- End: logo -->
+                <div class="col-lg-6">
+                    <div class="footer_socil">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 1.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 2.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 3.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 4.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 5.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 6.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 7.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/icon white logo/icon logo 8.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <!-- Start:Subfooter -->
+        <div class="subfooter">
+            <p> © 2021 Red Shiba™. All Rights Reserved</p>
+        </div>
+        <!-- End:Subfooter -->
+    </footer>
+    <!-- End:Footer Section
+==================================================-->
+
+    <!-- Scripts
+========================================-->
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Scripts
+========================================-->
+    <script src="js/main.js"></script>
+    <script>
+        var loadFile = function(event) {
+            
+          var reader = new FileReader();
+          reader.onload = function(){
+            var output = document.getElementById('output');
+            var preview = document.getElementsByClassName('preview-img')[0];
+            preview.classList.remove('d-none');
+            output.src = reader.result;
+          };
+          reader.readAsDataURL(event.target.files[0]);
+        };
+      </script>
+
+</body>
+
+</html>
