@@ -1017,8 +1017,45 @@
     padding: 20px 10px;
   }
 
-  .nft-section{
+  .nft-section {
     padding: 50px 0;
+  }
+
+  .discovertw_sidebar>div {
+    padding: 10px;
+  }
+
+  .sin-page-navigation .pagination li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .footer_logo {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .farming-wrap {
+    flex-wrap: wrap;
+  }
+
+  .farming-box {
+    margin-bottom: 20px;
+  }
+
+  .filter {
+    flex-wrap: wrap;
+  }
+
+  .fliter-left {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+
+  .filter-right {
+    width: 100%;
   }
 
 }
