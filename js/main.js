@@ -15,26 +15,48 @@
 12: Window Scroll
  
 ====================================================================*/
- 
- (function($) {
-    'use strict';
-    /*-------------------------------------
-       02: Menu Page Menu Sticky
-    -------------------------------------*/ 
 
-    function stickyHeader() {      
-        var scroll = $(window).scrollTop();
-        if (scroll > 70)
-          $('.menu_wrapper').addClass('menu_sticky');
-        else
-          $('.menu_wrapper').removeClass('menu_sticky');
-    }
+(function ($) {
+   'use strict';
+   /*-------------------------------------
+      02: Menu Page Menu Sticky
+   -------------------------------------*/
 
-    /*--------------------
-     12: Window Scroll
-    ----------------------*/
-    $(window).on("scroll", function() {    
-        stickyHeader();
-     });
- 
+   $('#nft-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      autoplay:false,
+      autoplayTimeout:4000,
+      autoplayHoverPause:false,
+      responsive: {
+         0: {
+            items: 2
+         },
+         600: {
+            items: 3
+         },
+         1000: {
+            items: 5,
+            nav:true,
+         }
+      }
+   })
+
+
+   function stickyHeader() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 70)
+         $('.menu_wrapper').addClass('menu_sticky');
+      else
+         $('.menu_wrapper').removeClass('menu_sticky');
+   }
+
+   /*--------------------
+    12: Window Scroll
+   ----------------------*/
+   $(window).on("scroll", function () {
+      stickyHeader();
+   });
+
 })(jQuery);

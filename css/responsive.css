@@ -1017,6 +1017,10 @@
     padding: 20px 10px;
   }
 
+  .nft-section{
+    padding: 50px 0;
+  }
+
 }
 
 @media only screen and (min-width: 280px) and (max-width: 310px) {}
