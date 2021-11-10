@@ -1594,6 +1594,7 @@ nav .menu_content .links {
 
 .discover_item img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .discover_seller_img {
