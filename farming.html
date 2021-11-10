@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
 
     <!-- CSS Begins
@@ -59,7 +59,7 @@
                     <li><a href="#">Whitepaper</a></li>
                     <li><a href="market.html">NFT Market</a></li>
                     <li><a href="farming.html">Farming</a></li>
-                    <li><a href="https://t.me/red_shiba_token" class="btn-outline">TeleGram</a></li>
+                    <li><a href="https://t.me/RedshibaTokenChat" class="btn-outline">TeleGram</a></li>
                 </ul>
                 <!-- ./ ul -->
             </div>
@@ -149,17 +149,19 @@
                         <div class="farming-box">
                             <h5>GRBE in wallet</h5>
                             <div class="farming-box-price">$0.00</div>
-                            <button class="btn bt--secondary">Buy GRBE</button>
+                            <button class="btn bt--secondary">Buy RST</button>
                         </div>
                     </div>
                     <div class="filter">
                         <div class="fliter-left">
                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <li class="nav-item">
-                                  <a class="nav-link active" id="live-tab" data-toggle="pill" href="#live" role="tab" aria-controls="pills-home" aria-selected="true">Live</a>
+                                    <button class="nav-link active" id="live-tab" data-bs-toggle="pill" data-bs-target="#pills-live" type="button" role="tab"
+                                        aria-controls="pills-live" aria-selected="true">Live</button>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link" id="finished-tab" data-toggle="pill" href="#finished" role="tab" aria-controls="pills-profile" aria-selected="false">Finished</a>
+                                    <button class="nav-link" id="finished-tab" data-bs-toggle="pill" data-bs-target="#pills-finished" type="button" role="tab"
+                                        aria-controls="pills-finished" aria-selected="false">Finished</button>
                                 </li>
                             </ul>
                             <div class="switch-wrapper">
@@ -185,7 +187,84 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-12">
-                    <div class="information_lock"><h3>Locked Reward: 0.00 <span>$ </span><button class="btn bt--primary" disabled="">Claim</button></h3></div>
+                    <div class="information_lock">
+                        <h3>Locked Reward: 0.00 <span style="color: #d80426;">RST </span><button class="btn bt--primary"
+                                disabled="">Claim</button></h3>
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-live" role="tabpanel" aria-labelledby="live-tab">
+                            <div class="live-item">
+                                <div class="live-item-top">
+                                    <div class="live-top-left">
+                                        <img src="img/logo.png" alt="">
+                                        <div class="live-left-text">
+                                            <h5>RST</h5>
+                                            <p>Deposit Free 0%</p>
+                                        </div>
+                                    </div>
+                                    <div class="live-top-right">
+                                        <div class="live-right-item">
+                                            <h5>RST Earned</h5>
+                                            <p>0.00 ~ <span>$ 0.00</span></p>
+                                        </div>
+                                        <div class="live-right-item">
+                                            <h5>Deposited</h5>
+                                            <p>0.00 ~ <span>$ 0.00</span></p>
+                                        </div>
+                                        <div class="live-right-item">
+                                            <h5>APR</h5>
+                                            <p>100%</p>
+                                        </div>
+                                        <div class="live-right-item">
+                                            <h5>TVL</h5>
+                                            <p>$ 100,000,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="live-item-bottom">
+                                    <div class="live-bottom-left">
+                                        <div class="box-earned">
+                                            <h5>RST Earned</h5>
+                                            <p>0.00 ~ <span>$ 0.00</span></p>
+                                            <img src="img/logo.png" alt="">
+                                            <button class="btn bt--primary" disabled="">Harvest All</button>
+                                        </div>
+                                    </div>
+                                    <div class="live-botoom-right">
+                                        <div class="box-card">
+                                            <nav>
+                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                  <button class="nav-link active" id="nav-deposit-tab" data-bs-toggle="tab" data-bs-target="#nav-deposit" type="button" role="tab" aria-controls="nav-deposit" aria-selected="true">Deposit</button>
+                                                  <button class="nav-link" id="nav-withdraw-tab" data-bs-toggle="tab" data-bs-target="#nav-withdraw" type="button" role="tab" aria-controls="nav-withdraw" aria-selected="false">Withdraw</button>
+                                                  <div class="avail">Avail: 0.00</div>
+                                                </div>
+                                            </nav>
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="nav-deposit" role="tabpanel" aria-labelledby="nav-deposit-tab">
+                                                    <div class="input-group mb-2">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">RST</div>
+                                                        </div>
+                                                        <input class="con-field" name="price" id="price" type="text"
+                                                            placeholder="Item Price">
+                                                    </div>
+                                                    <div class="list-percent">
+                                                        <button class="btn btn-percent"> 25%</button>
+                                                        <button class="btn btn-percent"> 50%</button>
+                                                        <button class="btn btn-percent"> 75%</button>
+                                                        <button class="btn btn-percent"> 100%</button>
+                                                    </div>
+                                                    <button class="btn btn-approve">Approve</button>
+                                                </div>
+                                                <div class="tab-pane fade" id="nav-withdraw" role="tabpanel" aria-labelledby="nav-withdraw-tab">...</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-finished" role="tabpanel" aria-labelledby="finished-tab">koko</div>
+                    </div>
                 </div>
             </div>
             <!-- /. row -->
@@ -212,42 +291,42 @@
                     <div class="footer_socil">
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="mailto:support@redshibatoken.dog">
                                     <img src="img/icon white logo/icon logo 1.png" alt="">
                                 </a>
                             </li>
+                            <!-- <li>
+                            <a href="#">
+                                <img src="img/icon white logo/icon logo 2.png" alt="">
+                            </a>
+                        </li> -->
                             <li>
-                                <a href="#">
-                                    <img src="img/icon white logo/icon logo 2.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="https://www.youtube.com/channel/UCw_8pRcuTbw6DZfQD3wsXnQ">
                                     <img src="img/icon white logo/icon logo 3.png" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://www.reddit.com/r/RedShiba_Official123">
                                     <img src="img/icon white logo/icon logo 4.png" alt="">
                                 </a>
                             </li>
+                            <!-- <li>
+                            <a href="#">
+                                <img src="img/icon white logo/icon logo 5.png" alt="">
+                            </a>
+                        </li> -->
                             <li>
-                                <a href="#">
-                                    <img src="img/icon white logo/icon logo 5.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="https://t.me/RedshibaTokenChat">
                                     <img src="img/icon white logo/icon logo 6.png" alt="">
                                 </a>
                             </li>
+                            <!-- <li>
+                            <a href="#">
+                                <img src="img/icon white logo/icon logo 7.png" alt="">
+                            </a>
+                        </li> -->
                             <li>
-                                <a href="#">
-                                    <img src="img/icon white logo/icon logo 7.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="https://twitter.com/RedshibaToken">
                                     <img src="img/icon white logo/icon logo 8.png" alt="">
                                 </a>
                             </li>

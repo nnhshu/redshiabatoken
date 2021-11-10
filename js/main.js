@@ -22,28 +22,6 @@
       02: Menu Page Menu Sticky
    -------------------------------------*/
 
-   $('#nft-carousel').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      autoplay:false,
-      autoplayTimeout:4000,
-      autoplayHoverPause:false,
-      responsive: {
-         0: {
-            items: 2
-         },
-         600: {
-            items: 3
-         },
-         1000: {
-            items: 5,
-            nav:true,
-         }
-      }
-   })
-
-
    function stickyHeader() {
       var scroll = $(window).scrollTop();
       if (scroll > 70)

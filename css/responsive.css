@@ -1,7 +1,25 @@
 /*          Responsive styles
 ================================================== */
 
-@media only screen and (min-width: 1678px) and (max-width: 1923px) {}
+@media only screen and (min-width: 1678px) and (max-width: 1923px) {
+
+  .hero-section {
+    min-height: 900px;
+  }
+
+  .hero-section img {
+    height: 100%;
+    z-index: 10;
+  }
+
+  .hero_text {
+    position: absolute;
+    right: 0;
+    width: 600px;
+    bottom: 0px;
+    z-index: 11;
+  }
+}
 
 @media only screen and (min-width: 1390px) and (max-width: 1677px) {}
 
@@ -829,11 +847,11 @@
     flex-direction: column;
   }
 
-  .box-tokenomic .box-tokenomic-text{
+  .box-tokenomic .box-tokenomic-text {
     margin-left: 0;
   }
 
-  .box-tokenomic img{
+  .box-tokenomic img {
     width: auto;
   }
 
@@ -883,6 +901,29 @@
 
   .menu_wrapper {
     padding: 20px 10px;
+  }
+
+  .live-item-top {
+    flex-wrap: wrap;
+  }
+
+  .live-top-left {
+    flex: auto;
+  }
+
+  .live-top-right {
+    flex: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .live-bottom-left {
+    flex: auto;
+  }
+
+  .avail {
+    font-size: 12px;
   }
 
 }

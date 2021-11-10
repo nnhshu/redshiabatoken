@@ -990,6 +990,7 @@ nav .menu_content .links {
   position: absolute;
   right: 0;
   width: 600px;
+  bottom: -35px;
 }
 
 .hero_text p {
@@ -997,7 +998,7 @@ nav .menu_content .links {
   line-height: 27px;
   color: #000;
   padding-right: 44px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .btn-launchapp {
@@ -1166,10 +1167,6 @@ nav .menu_content .links {
   color: #8a8a8a;
   padding: 10px 10px 30px 0;
   min-height: 100px;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 
 .box-tokenomic .box-tokenomic-text{
@@ -2429,7 +2426,7 @@ footer ul li {
 .categories-type li span {
   float: right;
   clear: both;
-  color: #A9AFC3ddd;
+  color: #A9AFC3;
 }
 
 /* - Recent Post */
@@ -3116,6 +3113,10 @@ ul#pills-tab {
   justify-content: space-between;
 }
 
+.nav-pills .nav-link{
+  font-family: 'GroBold';
+}
+
 .nav-pills .nav-link.active {
   background-color: #d80426;
 }
@@ -3309,6 +3310,176 @@ input:checked + .slider:before {
   font-size: 14px;
 }
 
+.live-item {
+  color: #000;
+  border: 1px solid;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.live-item-top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #d80426cf;
+}
+
+.live-top-left {
+  flex: 0 0 25%;
+}
+
+.live-top-right {flex: 0 0 75%;display: flex;flex-wrap: nowrap;gap: 50px;}
+
+.live-top-left img {
+  width: 70px;
+}
+
+.live-top-left {
+  display: flex;
+  align-items: center;
+}
+
+.live-left-text h5 {
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.live-left-text p {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.live-top-right h5 {
+  margin-bottom: 0;
+}
+
+.live-top-right p {
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.live-item-bottom {
+  padding: 10px 20px;
+  background-color: #d8042694;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.live-bottom-left {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  flex: 0 0 25%;
+}
+
+.live-botoom-right {
+  flex: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.box-earned {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-earned h5 {
+  color: #000;
+  margin-bottom: 0;
+}
+
+.box-earned p {
+  font-size: 22px;
+  color: #d80426;
+}
+
+.box-earned p span {
+  font-size: 14px;
+  color: #000;
+}
+
+.live-top-right p span {
+  font-size: 14px;
+}
+
+.live-botoom-right #nav-tab {
+  position: relative;
+}
+
+.avail {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #d80426;
+}
+
+.box-card .nav-tabs .nav-link.active {
+  background-color: #de434e;
+  color: #fff;
+}
+
+.box-card button {
+  font-family: 'GroBold';
+}
+
+.box-card .tab-content>.active {
+  background-color: #de434e;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box-card .tab-content .tab-pane {
+  padding: 10px 20px;
+}
+
+.box-card .tab-content .tab-pane input#price {
+  box-shadow: unset !important;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+
+.box-card .tab-content .tab-pane .input-group-prepend {
+  width: 30px;
+  height: 30px;
+}
+
+.btn-percent {
+  background-color: #f79f1e;
+  border-radius: 10px;
+}
+
+.list-percent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.list-percent button {
+  flex: auto;
+}
+
+.btn-approve {
+  width: 100%;
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+.btn-approve:hover {
+  color: #d80426;
+}
+
 
 
 /* Item Page - live auctions */
@@ -3384,7 +3555,6 @@ input:checked + .slider:before {
   color: #1F1F1E;
   font-size: 42px;
   margin-bottom: 25px;
-  align-contentalign-content: ;
 }
 
 .cta_text p {
