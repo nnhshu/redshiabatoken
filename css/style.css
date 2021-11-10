@@ -3480,6 +3480,23 @@ input:checked + .slider:before {
   color: #d80426;
 }
 
+.my-nft-wrap {
+  padding: 10px 20px;
+  border: 1px solid #dd4042;
+  border-radius: 10px;
+}
+
+.my-nft-wrap>h3 {
+  color: #000;
+}
+
+button.btn.btn-removeliquid {
+  color: #f69f1e;
+}
+
+button.btn.btn-addliquid {
+  color: #f2f2f2;
+}
 
 
 /* Item Page - live auctions */
