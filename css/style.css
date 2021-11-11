@@ -1785,6 +1785,23 @@ a .discover_title:hover {
   }
 }
 
+.farming-header img {
+  width: 300px;
+}
+
+.farming-header .col-sm-12 {
+  align-items: center;
+}
+
+.market-header img {
+  width: 300px;
+}
+
+.market-header .col-sm-12 {
+  align-items: center;
+}
+
+
 div#pre-load {
   position: fixed;
   inset: 0;
@@ -2805,6 +2822,13 @@ footer ul li {
   margin-top: 3px;
 }
 
+.farming-header h3 {
+  color: #d80426;
+}
+
+.market-header h3 {
+  color: #d80426;
+}
 /*  Blog Comments Form */
 
 .comments-section-title2 {
