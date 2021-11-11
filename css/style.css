@@ -1585,6 +1585,7 @@ nav .menu_content .links {
   border: 3px solid #dd4142;
   margin-bottom: 30px;
   transition: .4s;
+  text-align: center;
 }
 
 .discover_item:hover {
@@ -1593,8 +1594,11 @@ nav .menu_content .links {
 }
 
 .discover_item img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 10px;
+
 }
 
 .discover_seller_img {
