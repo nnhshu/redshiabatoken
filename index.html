@@ -37,6 +37,12 @@
 </head>
 
 <body>
+    <div id ="pre-load" class="pre-load">
+        <div class="box-load">
+            <img src="img/Shiba4.png" alt="">
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
     <!-- Start: Header Section
 ==================================================-->
     <div class="menu_wrapper">
@@ -544,6 +550,18 @@
     <!-- Custom Scripts
 ========================================-->
     <script src="js/main.js"></script>
+    <script>
+        $( "#pre-load" ).show();
+        $(window).on('load', function(){
+            setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+        });
+        function removeLoader(){
+            $( "#pre-load" ).fadeOut(500, function() {
+            // fadeOut complete. Remove the loading div
+            $( "#pre-load" ).remove(); 
+        });  
+        }
+    </script>
 
 </body>
 
