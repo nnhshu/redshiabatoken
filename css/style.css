@@ -2829,6 +2829,34 @@ footer ul li {
 .market-header h3 {
   color: #d80426;
 }
+
+.farming-header h3 {
+  position: absolute;
+  top: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.farming-header {
+  background-position: center;
+  position: relative;
+  min-height: 380px;
+  background-repeat: no-repeat;
+}
+
+.market-header {
+  min-height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.market-header h3 {
+  position: absolute;
+  margin-top: 0;
+  top: 30px;
+}
 /*  Blog Comments Form */
 
 .comments-section-title2 {
